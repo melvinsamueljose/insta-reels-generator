@@ -1,0 +1,5 @@
+{
+  "$schema": "https://opencode.ai/schema.json",
+  "model": "gpt-4o",
+  "autocommit": false
+}
