@@ -4,20 +4,44 @@
     <title>Insta Reel Composition</title>
     <style>
       body {
+        margin: 0;
+        background-color: #050505;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+      }
+      /* This is the main wrapper Hyperframes will look for */
+      .reel-wrapper {
         width: 1080px;
         height: 1920px;
-        margin: 0;
-        background-color: #000000;
-        color: #ffffff;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
         font-size: 80px;
+        margin: 0;
+        letter-spacing: 2px;
+      }
+      p {
+        font-size: 40px;
+        color: #aaaaaa;
+        margin-top: 20px;
       }
     </style>
   </head>
   <body>
-    <div>My First Reel</div>
+    <!-- The data tags below tell Hyperframes exactly how to render this element -->
+    <div class="reel-wrapper" 
+         data-composition-id="classic_drape_01" 
+         data-duration="5" 
+         data-width="1080" 
+         data-height="1920">
+      
+      <h1>@classic.drape</h1>
+      <p>Vintage Menswear & Tailoring</p>
+      
+    </div>
   </body>
 </html>
