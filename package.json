@@ -6,7 +6,7 @@
     "hyperframes:build": "hyperframes build"
   },
   "devDependencies": {
-    "hyperframes": "^1.0.0",
-    "opencode": "^1.0.0"
+    "hyperframes": "latest",
+    "opencode-ai": "latest"
   }
 }
