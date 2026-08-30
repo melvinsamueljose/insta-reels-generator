@@ -1,0 +1,12 @@
+{
+  "name": "insta-reels-generator",
+  "version": "1.0.0",
+  "scripts": {
+    "opencode": "opencode",
+    "hyperframes:build": "hyperframes build"
+  },
+  "devDependencies": {
+    "hyperframes": "^1.0.0",
+    "opencode": "^1.0.0"
+  }
+}
